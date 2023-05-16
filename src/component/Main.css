@@ -1,0 +1,17 @@
+.iwnlHO {
+  overflow-x: hidden;
+}
+@media screen and (min-width: 48em) {
+  .iwnlHO {
+    overflow-x: initial;
+  }
+}
+
+#root {
+  min-height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+}
+#root > :first-child {
+  flex: 1 1 0%;
+}
